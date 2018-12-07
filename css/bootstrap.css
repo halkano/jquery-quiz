@@ -12,7 +12,7 @@ html {
 body {
 	padding:0;
 	margin:0;
-  background-image: url("../img/A.JPG");
+  background-image: url("../img/a.JPG");
   background-size: cover;
 }
 article,
@@ -1589,7 +1589,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url("../img/B.JPG");
+  background-image: url("../img/b.JPG");
   background-size: cover;
 }
 @media (min-width: 768px) {

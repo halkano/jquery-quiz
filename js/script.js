@@ -33,5 +33,5 @@ if (q7=="b"){
 if (q8=="a"){
           count++;
 }
-alert("<strong>YOU GOT: "+count+" OUT OF 8 MARKS");
+alert("YOU GOT: "+count+" OUT OF 8 MARKS");
 }

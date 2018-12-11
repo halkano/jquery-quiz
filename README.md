@@ -1,11 +1,27 @@
 # Jquery Quiz
 ## Answer The quiz By Selecting A Button
 ### **Henry Halkano**
-### this application calculates the total marks of the correct quizes selected out of  the total quiz attempted.
-##  function check(){
-var q1=document.myform.q1.value;
-var q2=document.myform.q2.value;
-var q3=document.myform.q3.value;
+### Description
+This application calculates the total percentage of the correct quizes selected out of  the total quiz attempted.
+## Behavior Driven Development
+* The program should return an alert when none of the radio buttons has been checked:
+
+     **Example**: Please answer question 1 to proceed!
+
+
+## /*Back-end logic*/
+var inputedAnswers = [],
+    scoredPoints = 0;
+    questions = ["a-1", "b-2", "c-3", "d-4"];
+
+function pointsCompiler(){
+  scoredPoints = inputedAnswers[0] + inputedAnswers[1] + inputedAnswers[2] + inputedAnswers[3];
+  return points;
+}
+/*Front-end logic*/
+$(document).ready(function(){
+  $(".question").hide();
+
 
 ![](img/s.png)
 

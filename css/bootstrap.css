@@ -103,6 +103,7 @@ hr {
 }
 p{
   text-align: center;
+  font-size: 100px;
 }
 pre {
   overflow: auto;

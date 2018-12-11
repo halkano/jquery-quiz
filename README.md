@@ -18,7 +18,7 @@ function pointsCompiler(){
   scoredPoints = inputedAnswers[0] + inputedAnswers[1] + inputedAnswers[2] + inputedAnswers[3];
   return points;
 }
-/*Front-end logic*/
+## /*Front-end logic*/
 $(document).ready(function(){
   $(".question").hide();
 
